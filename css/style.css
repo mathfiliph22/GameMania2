@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
+* {
+    margin: 0 auto; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* algumas das especificaçoes de css */
+
+header {
+    background-color: white;
+    height: 180px;
+    
+}
+
+
+/* cabeçalho */
+    
+
+.posicionamento-header{    
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+
+ /* posicionamento do cabeçalho */
+
+.caixa-de-busca{
+    height: 25px;
+    
+} 
+
+.minha-conta a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-family: "russo one", sans-serif;
+    font-size: 15px;    
+}
+
+
+/* option minha conta */
+.menu a {
+    font-family: "russo one";
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;    
+
+} 
+
+
+/* opçao menu */
+.posicionamento-links{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+/* posicionamento link menu */
+
+.banner{
+    background-image: url(../img/BannerSiteWB_FIFA22_4320x1080px_v1\ \(2\).png);
+    height: 715px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.menu{
+    background-color: #163b51; 
+    height: 70px;
+}
+
+
+/* cor menu */
+
+   
+
+    
+    /* banner */
+@media screen and (max-width: 1200px) {
+    .container-logo{
+        width: 90%;
+    }
+    .posicionamento-header{
+        width: 90%;
+    }
+   .menu {
+       width: 90%;
+   }
+    .posicionamento-links{
+        width: 90%;
+    }
+    .banner{
+        width: 90%;
+    }
+}
+
+.lançamentos {
+    background-color: #163b51;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lançamentos a{
+    font-family: "russo one";
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;    
+
+}
+
+.produtos1 {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 450px;
+
+
+}
+
+.produtos1 img{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    height: 200px;
+
+}
+
+.precos p {
+    color: black;
+    font-family: "russo one", "sans serife";  
+    text-decoration: none;   
+} 
+
+.precos{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.promoções {
+    background-color: #163b51;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.promoções a {
+    font-family: "russo one";
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;   
+}
+
+.produtos2 {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 450px;
+
+
+}
+
+.produtos2 img{
+    width: 250px;
+    height: 200px;
+}
+
+.precos2 p {
+    color: black;
+    font-family: "russo one", "sans serife";  
+    text-decoration: none;   
+} 
+
+.precos2 {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.rodape{
+
+}
+
+.sobre h1 {
+    font-family: "russo one";
+    color: #163b51;
+    
+    
+
+}  
+
+.sobre{
+    font-family: "russo one";
+    position:absolute;
+    float: left;
+    width:auto;
+    height: auto;
+    left:30px;
+    font-size: 30px;
+
+
+}
+
+
+
+.informações h2{
+    font-family: "russo one";
+    color: #163b51;
+    font-size: 35px;
+    
+}
+
+.informações h3{
+    font-family: "russo one";
+    color: #163b51;
+    font-size: 35px;
+}
+.informações h4{
+    font-family: "russo one";
+    color: #163b51;
+    font-size: 35px;
+}
+
+
+.informações{
+    font-family: "russo one";
+    position: relative;
+    float: left;
+    width:auto;
+    height: auto;
+    left: 580px;
+    font-size: 30px;
+
+    
+   
+}
+
+.cnpj{
+    font-family: "russo one";
+    color: black;
+    position: relative;
+    float: left;
+    width:auto;
+    height: auto;
+    left: 600px;
+    font-size: 15px;
+    
+}  
